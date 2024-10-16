@@ -1,0 +1,29 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.grid-item {
+  transform: rotateY(90deg);
+}
+
+body {
+background-image: url("https://img.freepik.com/free-photo/low-view-trees-with-raising-sun_23-2148283393.jpg?t=st=1728495624~exp=1728499224~hmac=ed3e563467af8f4541686958800417db8b5e57974f1403517f25fbf8af2986d9&w=826");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+div {
+  background-color: black;
+  margin: 20px;
+  width: min-content; //so that fits the image or matches the div
+  height: 150px;
+  cursor: pointer;
+}
+
+img{
+  width: 100px;
+  
+}
